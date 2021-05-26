@@ -6,7 +6,7 @@
     "build-backend":"nx build --prod backend",
     "start-backend":"node dist/apps/backend/main",
     "nx": "nx",
-    "start:prod": "node dist/apps/backend/main",
+    "start:backend": "node dist/apps/backend/main",
     "build": "nx build --prod backend",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
@@ -27,7 +27,6 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help"
   },
-  "heroku-run-build-script": true,
   "private": true,
   "dependencies": {
     "@nestjs/common": "^7.0.0",
