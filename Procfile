@@ -1,1 +1,1 @@
-web: npm install && npm run-script build-backend && npm run-script start-backend
+web: npm run start:prod

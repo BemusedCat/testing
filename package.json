@@ -6,7 +6,7 @@
     "build-backend":"nx build --prod backend",
     "start-backend":"node dist/apps/backend/main",
     "nx": "nx",
-    "start": "node dist/apps/backend/main",
+    "start:prod": "node dist/apps/backend/main",
     "build": "nx build --prod backend",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
